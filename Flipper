@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Bazaar Flipper </title>
+    
+    <link rel = "shortcut icon" type = "image/png" href = "/Shortcut Icon.png"/>
+    
+    <meta name= "viewpoint" content = "width=device-width, initial-scale=1">
+      <style>
+        {box-sizing: border-box}
+        
+        body, html {
+          height: 95%;
+          margin: 0;
+          font-family: Calibri, sans-serif;
+        }
+        
+        .tablink {
+          background-color: #555;
+          color: white;
+          float: left;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          padding: 14px 16px;
+          font-size: 17px;
+          width: 25%;
+        }
+        
+        .tablink:hover {
+          background-color: #777;
+        }
+        
+        .tabcontent {
+          color: black;
+          display: none;
+          padding: 100px 20px;
+          height: 100%;
+        }
+        
+        .column {
+          float: left;
+          width: 20%;
+        }
+        
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+      </style>
+#Yeah {background-color: #0f0f0f}
+
+  </head>
+  <body>
+  <button class = "tablink" onclick = "openpage('Yeah', this, 'gray')" id = "defaultOpen">Yeah</button>
+  
+  <div id = "Yeah" class= "tabcontent">
+    <center><h1>Bazaar Flipper</h1></center>
+    <center><br><br><br>
+    //<div style = "display:inline-block;vertical-align:middle;">
+    //</div>
+    
+    <div style = "display:inline-block;">
+      <p>
+        Test Text
+      
+      </p>
+  
+  </body>
+
+
+
+</html>
